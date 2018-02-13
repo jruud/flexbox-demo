@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+p {
+  font-family: 'libre baskerville';
+}
+
+h1 {
+  font-family: 'Libre Franklin';
+  font-size: 3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px 50px 0px;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pair {
+  padding: 1em 1em 1em 1em;
+  margin-top: 20px;
+  max-width: 800px;
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pair ul {
+  font-size: 1.5em;
+  margin-top: .35em;
+}
+.fullSpan {
+  width: 100%;
+}
+#pair2Background {
+  background-color: #f44f38;
+  display: flex;
+  justify-content: center;
+}
+
+#pair2 {
+  color: white;
+}
+
+#pair2 ul {
+  order: -1;
+}
+
+#mainHeader {
+  display: flex;
+  height: 500px;
+  background-image: url('images/mountain.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#mainHeader h1 {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .pair {
+    justify-content: space-between;
+  }
+  .pair p {
+    flex-basis: 65%;
+  }
+}
